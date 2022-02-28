@@ -1,0 +1,16 @@
+L= []
+n = int(input("enter number of flights! "))
+for i in range(n):
+  fn = input("enter flight number: ")
+  dt= input("enter departure time: ")
+  f= input("from: ")
+  t= input("to: ")
+  fna= input("fligth name: ")
+  L.append([fn,dt,f,t,fna])
+
+city = input("enter city: ")
+for l in L:
+   if (city.lower()in l[3].lower()):
+    print(l)
+    
+--------------------------------------------------------
